@@ -142,6 +142,20 @@
         return false;
     });
 
+    // Menu Fixo
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 150) {
+            if (!$('.header-top').hasClass('fixed')) {
+                $('.header-top').addClass('fixed');
+                $('body').addClass('menu-fixed');
+            }
+        } else {
+            if ($('.header-top').hasClass('fixed')) {
+                $('.header-top').removeClass('fixed');
+                $('body').removeClass('menu-fixed');
+            }
+        }
+    });
 
 })(jQuery);
 
