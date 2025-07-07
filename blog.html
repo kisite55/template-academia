@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Blog Fitness e Saúde | Academia EliteFit São Paulo | Dicas de Treino</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="blog de academia, dicas de treino são paulo, nutrição esportiva, saúde e bem-estar, emagrecimento, hipertrofia, elitefit blog, academia em sp" name="keywords">
+        <meta content="Acompanhe o blog da Academia EliteFit em São Paulo. Encontre dicas de treino, nutrição, saúde e bem-estar para otimizar seus resultados e viver melhor." name="description">
+        <meta content="Kisite" name="author">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Carregando...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header-top">
+            <div class="nav-shaps-2"></div>
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="index.html" class="navbar-brand" style="height: 125px;">
+                        <h1 class="text-primary mb-0"><i class="fas fa-dumbbell me-2"></i> EliteFit</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                                <div class="d-flex flex-wrap">
+                                    <div class="pe-4">
+                                        <a href="mailto:contato@elitefit.com.br" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>contato@elitefit.com.br</a>
+                                    </div>
+                                    <div class="pe-0">
+                                        <a href="#" class="text-muted small"><i class="fa fa-clock text-primary me-2"></i>Seg - Sáb: 06:00 - 22:00</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center text-lg-end">
+                                <div class="d-flex justify-content-end">
+                                    <div class="d-flex align-items-center small">
+                                        <a href="#" class="login-btn text-body me-3 pe-3"> <span>Entrar</span></a>
+                                        <a href="#" class="text-body me-3"> Cadastre-se</a>
+                                    </div>
+                                    <div class="d-flex pe-3">
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="#" class="navbar-brand-2">
+                                <h1 class="text-primary mb-0"><i class="fas fa-dumbbell me-2"></i> EliteFit</h1>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a> 
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto">
+                                    <a href="index.html" class="nav-item nav-link">Início</a>
+                                    <a href="about.html" class="nav-item nav-link">Sobre Nós</a>
+                                    <a href="course.html" class="nav-item nav-link">Aulas</a>
+                                    <a href="blog.html" class="nav-item nav-link active">Blog</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Páginas</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="feature.html" class="dropdown-item">Nossos Diferenciais</a>
+                                            <a href="team.html" class="dropdown-item">Nossa Equipe</a>
+                                            <a href="testimonial.html" class="dropdown-item">Depoimentos</a>
+                                            <a href="404.html" class="dropdown-item">Página 404</a>
+                                        </div>
+                                    </div>
+                                    <a href="contact.html" class="nav-item nav-link">Contato</a>
+                                    <div class="nav-btn ps-3">
+                                        <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                        <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3"> <span>Consulte Planos</span></a>
+                                    </div>
+                                    <div class="nav-shaps-1"></div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Buscar por palavra-chave</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center bg-primary">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="palavras-chave" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Nosso Blog</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                    <li class="breadcrumb-item active text-primary">Blog</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary"> Nosso Blog</h4>
+                    <h1 class="display-4 mb-4">Confira Nossas Últimas Dicas</h1>
+                    <p class="mb-0">Dicas de treino, nutrição, saúde e bem-estar para te ajudar a manter uma rotina saudável dentro e fora da academia.
+                    </p>
+                </div>
+                <div class="blog-carousel owl-carousel">
+                    <div class="blog-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-img p-4 pb-0">
+                            <a href="#">
+                                <img src="img/feature-4.jpg" class="img-fluid w-100" alt="Post de blog sobre treino em casa">
+                            </a>
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="blog-comment d-flex justify-content-between py-2 px-3 mb-4">
+                                <div class="small"><span class="fa fa-user text-primary me-2"></span> Equipe EliteFit</div>
+                                <div class="small"><span class="fa fa-calendar text-primary me-2"></span> 30 Dez 2025</div>
+                            </div>
+                            <a href="#" class="h4 d-inline-block mb-3">5 Exercícios Para Fazer em Casa</a>
+                            <p class="mb-3">Não conseguiu vir para a academia hoje? Sem problemas! Veja 5 exercícios para manter o corpo ativo.</p>
+                            <a href="#" class="btn btn-dark py-2 px-4 ms-2"> <span class="me-2">Leia Mais</span>  <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-img p-4 pb-0">
+                            <a href="#">
+                                <img src="img/feature-3.jpg" class="img-fluid w-100" alt="Post de blog sobre nutrição">
+                            </a>
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="blog-comment d-flex justify-content-between py-2 px-3 mb-4">
+                                <div class="small"><span class="fa fa-user text-primary me-2"></span> Equipe EliteFit</div>
+                                <div class="small"><span class="fa fa-calendar text-primary me-2"></span> 25 Dez 2025</div>
+                            </div>
+                            <a href="#" class="h4 d-inline-block mb-3">A Importância da Nutrição Pré-Treino</a>
+                            <p class="mb-3">Saiba o que comer antes de treinar para garantir mais energia e melhores resultados.</p>
+                            <a href="#" class="btn btn-dark py-2 px-4 ms-2"> <span class="me-2">Leia Mais</span>  <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-img p-4 pb-0">
+                            <a href="#">
+                                <img src="img/feature-2.jpg" class="img-fluid w-100" alt="Post de blog sobre treino de abdômen">
+                            </a>
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="blog-comment d-flex justify-content-between py-2 px-3 mb-4">
+                                <div class="small"><span class="fa fa-user text-primary me-2"></span> Equipe EliteFit</div>
+                                <div class="small"><span class="fa fa-calendar text-primary me-2"></span> 20 Dez 2025</div>
+                            </div>
+                            <a href="#" class="h4 d-inline-block mb-3">Treino de Abdômen: Mitos e Verdades</a>
+                            <p class="mb-3">Descubra as melhores práticas para definir o abdômen e evitar os erros mais comuns.</p>
+                            <a href="#" class="btn btn-dark py-2 px-4 ms-2"> <span class="me-2">Leia Mais</span>  <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img p-4 pb-0">
+                            <a href="#">
+                                <img src="img/feature-1.jpg" class="img-fluid w-100" alt="Post de blog sobre descanso">
+                            </a>
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="blog-comment d-flex justify-content-between py-2 px-3 mb-4">
+                                <div class="small"><span class="fa fa-user text-primary me-2"></span> Equipe EliteFit</div>
+                                <div class="small"><span class="fa fa-calendar text-primary me-2"></span> 15 Dez 2025</div>
+                            </div>
+                            <a href="#" class="h4 d-inline-block mb-3">Descanso é Treino: Entenda a Importância</a>
+                            <p class="mb-3">Seus músculos crescem enquanto você descansa. Saiba como otimizar sua recuperação.</p>
+                            <a href="#" class="btn btn-dark py-2 px-4 ms-2"> <span class="me-2">Leia Mais</span>  <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="position-relative d-flex" style="transform: skew(18deg);">
+                            <input class="form-control border-0 w-100 py-3 pe-5" type="text" placeholder="Seu e-mail para assinar a newsletter">
+                            <button type="button" class="btn-primary py-2 px-4 ms-3"> <span>Inscrever-se</span></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                            <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-primary btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4"><i class="fas fa-dumbbell text-primary me-2"></i> EliteFit</h4>
+                            <p class="mb-0">Transformando vidas em São Paulo através do movimento. Venha fazer parte da nossa comunidade e descubra sua melhor versão.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Links Rápidos</h4>
+                            <a href="#"> Início</a>
+                            <a href="#"> Sobre Nós</a>
+                            <a href="#"> Nossas Aulas</a>
+                            <a href="#"> Nossos Diferenciais</a>
+                            <a href="#"> Blog & Notícias</a>
+                            <a href="#"> Depoimentos</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Informações de Contato</h4>
+                            <div class="row g-2">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                        <div>
+                                            <h5 class="text-white mb-2">Endereço</h5>
+                                            <p class="mb-0">Av. Paulista, 1234 - São Paulo, SP</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <i class="fas fa-envelope text-primary me-2"></i>
+                                        <div>
+                                            <h5 class="text-white mb-2">Envie-nos um e-mail</h5>
+                                            <p class="mb-0">contato@elitefit.com.br</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <i class="fa fa-phone-alt text-primary me-2"></i>
+                                        <div>
+                                            <h5 class="text-white mb-2">Telefone</h5>
+                                            <p class="mb-0">(11) 2345-6789</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Galeria Recente</h4>
+                            <div class="row g-2">
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-9.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-10.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-11.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-12.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-1.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-2.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-3.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-4.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-5.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-6.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-7.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-8.jpg" class="img-fluid" alt="Galeria de fotos da academia"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="https://elitefit.com.br/" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>EliteFit Academia</a>, Todos os direitos reservados.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        Desenvolvido por <a class="border-bottom text-white" href="https://kisite.com.br">Kisite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <div class="back-to-top">
+            <a href="#" class="btn"><i class="fa fa-arrow-up"></i></a>  
+        </div> 
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,122 @@
+# Template para Academia EliteFit (Baseado em Fitness da HTML Codex)
+
+Este é um template HTML/CSS/JS para sites de academias e centros de fitness, totalmente traduzido para o português e adaptado para o mercado brasileiro, com foco em SEO (Otimização para Mecanismos de Busca) para a cidade de São Paulo. O projeto foi desenvolvido para a academia fictícia "Academia EliteFit", utilizando como base o template "Fitness" da HTML Codex.
+
+---
+
+### ℹ️ Créditos do Template Original
+*   **Template Name**: Fitness - Fitness Website Template
+*   **Template Link**: https://htmlcodex.com/fitness-website-template
+*   **Template License**: https://htmlcodex.com/license (ou leia o arquivo `LICENSE.txt`)
+*   **Template Author**: HTML Codex
+*   **Author Website**: https://htmlcodex.com
+
+---
+
+## 📌 Sobre a KiSite
+
+Este projeto faz parte do portfólio da **KiSite**, especialista em desenvolvimento web, automação via IA, SEO e marketing digital. A KiSite tem como missão democratizar o acesso à tecnologia de ponta para negócios de todos os portes, oferecendo soluções digitais inteligentes que impulsionam resultados reais 💡.
+
+Site oficial: https://www.kisite.com.br/
+
+---
+
+## 📄 Licença & Direitos Autorais
+
+© 2024 KiSite. Todos os direitos reservados.
+
+O design original pertence à **HTML Codex**. A adaptação, tradução, otimização de SEO e implementação de conteúdo localizado são de propriedade intelectual da KiSite.
+
+Este software (e/ou conteúdo) é protegido por direitos autorais. Nenhuma parte deste projeto adaptado pode ser reproduzida, distribuída ou utilizada sem autorização expressa da KiSite.
+
+---
+
+## 🚀 Como utilizar
+
+Este é um projeto estático (HTML, CSS, JS) e não requer um processo de build com `npm`. Para visualizá-lo e editá-lo, siga os passos abaixo:
+
+1.  **Clone o repositório ou baixe os arquivos:**
+    ```bash
+    git clone https://github.com/suaempresa/nome-do-projeto.git
+    ```
+
+2.  **Execute o projeto:**
+    Não há dependências para instalar. Você pode abrir o projeto de duas maneiras:
+
+    *   **Opção A (Simples):**
+        Abra o arquivo `index.html` diretamente em seu navegador.
+
+    *   **Opção B (Recomendado para Desenvolvimento):**
+        Use um servidor web local para evitar problemas com requisições de arquivos (CORS). Se você usa o Visual Studio Code, a extensão **Live Server** é uma excelente opção.
+        - Instale a extensão "Live Server".
+        - Clique com o botão direito no arquivo `index.html` e selecione "Open with Live Server".
+
+---
+
+## ⚙️ Tecnologias
+
+As tecnologias utilizadas neste template são:
+
+-   **Estrutura:** HTML5, CSS3, JavaScript (ES6)
+-   **Framework CSS:** Bootstrap 5
+-   **Bibliotecas JavaScript:** jQuery, Owl Carousel, Wow.js (para animações de scroll), Easing.js, Waypoints.js
+-   **SEO:** Otimização on-page, meta tags descritivas, semântica HTML e localização de conteúdo para São Paulo.
+
+---
+
+## 📝 Documentação
+
+O código é comentado nas seções principais para facilitar a compreensão. A estrutura de arquivos segue um padrão simples:
+
+-   `/css`: Contém os arquivos de estilo (CSS).
+-   `/js`: Contém os arquivos de script (JavaScript).
+-   `/img`: Contém as imagens utilizadas no projeto.
+-   `/lib`: Contém as bibliotecas de terceiros (Owl Carousel, Wow.js, etc.).
+-   `*.html`: Os arquivos das páginas do site estão na raiz do projeto (`index.html`, `about.html`, etc.).
+
+---
+
+## 🤝 Feedback e Sugestões
+
+Este é um projeto de portfólio com direitos reservados e não está aberto a contribuições diretas via Pull Request.
+
+No entanto, se você tiver sugestões de melhoria ou encontrar algum bug, por favor, entre em contato conosco através dos canais de suporte. Seu feedback é muito valioso!
+
+---
+
+## 🛠 Suporte
+
+Se precisar de ajuda:
+
+-   📨 E-mail: comercial@kisite.com.br
+-   🔗 Site: https://www.kisite.com.br
+-   📱 WhatsApp: disponível em https://www.kisite.com.br/contact
+
+---
+
+## 🧩 Outros Projetos da KiSite
+
+| Projeto               | Descrição breve                                            |
+| --------------------- | ---------------------------------------------------------- |
+| Site institucional    | Responsivo, otimizado para SEO, blog integrado             |
+| E-commerce            | Carrinho, checkout, integração com pagamentos             |
+| Chatbot IA + WhatsApp | Atendimento automático 24/7, qualificação de leads, agendamento |
+| Landing page          | Para campanhas específicas e capturas de leads           |
+
+---
+
+## 🎯 Contato
+
+**KiSite Soluções Web**
+Desenvolvemos sites, landing pages, e‑commerce, chatbots de IA e automações inteligentes para pequenas e médias empresas.
+
+Entre em contato:
+
+-   Site: https://www.kisite.com.br
+-   E‑mail: comercial@kisite.com.br
+-   WhatsApp: disponível no rodapé do site
+
+---
+
+**Obrigado por usar/tirar ideias deste projeto!**
+— Equipe KiSite 🚀
